@@ -2,6 +2,24 @@
 
 با تشکر از دوستی که این مورد رو متذکر شدن و باعث اصلاح کد شدن! 🌹
 
+متاسفانه با توجه به محدودیت ها، امکان آپلو فایل وجود نداره. برای ورژن 9 باید این تغییر رو در سورس کد بدید، هر جا دیدید:
+```
+path:'/api/v3.12/
+```
+تغییرش بدید به:
+```
+path:'/api/
+```
+که کلا 5 جا این مورد هست. برای گرفتن لیست کاربران و دیوایس ها و ...
+مثلا:
+```
+{name:'Target Groups',key:'targetsgroup',path:'/api/v3.12/targetgroups?limit=-1'}
+```
+باید بشه:
+```
+{name:'Target Groups',key:'targetsgroup',path:'/api/targetgroups?limit=-1'}
+```
+
 # فارسی
 این صفحه مربوط به پروژه زیر هست، از این نسخه به بعد این پروژه بر پایه API ها گسترش پیدا خواهد کرد و پروژه قبلی دیگه به روز نخواهد شد. اولین نسخه این پروژه یعنی 2.6.0 همون ویژگی های پروژه قبلی با نسخه 2.5.10 رو دارا هست. ویژگی های جدید که فقط در API ها قابل دسترس هست، به این پروژه کم کم افزوده خواهد شد. داکیومنت های این پروژه تا نسخه فعلی یعنی 2.6.0 رو از لینک پایین مطالعه کنید. تنها تفاوت نسخه 2.6.0 این پروژه با نسخه 2.5.10 پروژه قبلی فقط در دریافت اطلاعات ورودی هست. 2.5.10 با فایل های CSV و 2.6.0 از طریق API ها.
 
@@ -29,6 +47,24 @@ Link to previous project (version 2.5.10):
 https://github.com/sMohammad14/WABACL-wallix-bastion-access-control-list-viewer
 
 ---
+
+Unfortunately, due to limitations, it is not possible to upload files. For version 9, you need to make this change in the source code, wherever you see:
+```
+path:'/api/v3.12/
+```
+Change it to:
+```
+path:'/api/
+```
+There are 5 places in total. To get a list of users and devices and ...
+For example:
+```
+{name:'Target Groups',key:'targetsgroup',path:'/api/v3.12/targetgroups?limit=-1'}
+```
+It should be:
+```
+{name:'Target Groups',key:'targetsgroup',path:'/api/targetgroups?limit=-1'}
+```
 
 #### 💡Update 2.8.0:
 ##### ✅Added the ability to download the output table with the current live table state in both JSON and CSV formats. The downloadable files exactly reflect the current state the user is viewing, meaning applied sorting, visible or hidden columns are accessible in the downloaded files. In short, whatever the user currently sees in the table, the same information is available in the mentioned files in the same form.
