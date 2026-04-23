@@ -38,16 +38,6 @@ https://github.com/sMohammad14/WABACL-wallix-bastion-access-control-list-viewer
 
 Thanks to a friend who pointed this out and fixed the code! 🌹
 
-# English
-This page relates to the following project. From this version onward, this project will be expanded based on APIs, and the previous project will no longer be updated. The first version of this project, i.e., 2.6.0, includes the same features as the previous project version 2.5.10. New features, which are only accessible via APIs, will be gradually added to this project.
-Documentation for this project up to the current version (2.6.0) can be found at the link below. The only difference between version 2.6.0 of this project and version 2.5.10 of the previous project is in how input data is received: 2.5.10 uses CSV files, while 2.6.0 uses APIs.
-
-Link to previous project (version 2.5.10):
-
-https://github.com/sMohammad14/WABACL-wallix-bastion-access-control-list-viewer
-
----
-
 Unfortunately, due to limitations, it is not possible to upload files. For version 9, you need to make this change in the source code, wherever you see:
 ```
 path:'/api/v3.12/
@@ -65,6 +55,16 @@ It should be:
 ```
 {name:'Target Groups',key:'targetsgroup',path:'/api/targetgroups?limit=-1'}
 ```
+
+# English
+This page relates to the following project. From this version onward, this project will be expanded based on APIs, and the previous project will no longer be updated. The first version of this project, i.e., 2.6.0, includes the same features as the previous project version 2.5.10. New features, which are only accessible via APIs, will be gradually added to this project.
+Documentation for this project up to the current version (2.6.0) can be found at the link below. The only difference between version 2.6.0 of this project and version 2.5.10 of the previous project is in how input data is received: 2.5.10 uses CSV files, while 2.6.0 uses APIs.
+
+Link to previous project (version 2.5.10):
+
+https://github.com/sMohammad14/WABACL-wallix-bastion-access-control-list-viewer
+
+---
 
 #### 💡Update 2.8.0:
 ##### ✅Added the ability to download the output table with the current live table state in both JSON and CSV formats. The downloadable files exactly reflect the current state the user is viewing, meaning applied sorting, visible or hidden columns are accessible in the downloaded files. In short, whatever the user currently sees in the table, the same information is available in the mentioned files in the same form.
