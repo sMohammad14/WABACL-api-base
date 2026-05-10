@@ -1,4 +1,6 @@
-#### 💡 آپدیت: به دلیل به روز رسانی های API ولیکس و تغییر در endpoint های API، این پروژه در دو نسخه منتشر میشه. یک نسخه برای Wallix Bastion 9.x و نسخه دیگر، برای Wallix Bastion 12.x ورژن در خصوص ورژن 10 به زودی اعلام خواهد شد! یا میتونید با هر دو فایل HTML که اینجا هست تست کنید!
+### نسخه مناسب Wallix Bastion 9.x اضافه شد!
+
+### 💡 آپدیت: به دلیل به روز رسانی های API ولیکس و تغییر در endpoint های API، این پروژه در دو نسخه منتشر میشه. یک نسخه برای Wallix Bastion 9.x و نسخه دیگر، برای Wallix Bastion 12.x ورژن در خصوص ورژن 10 به زودی اعلام خواهد شد! یا میتونید با هر دو فایل HTML که اینجا هست تست کنید!
 
 با تشکر از دوستی که این مورد رو متذکر شدن و باعث اصلاح کد شدن! 🌹
 
@@ -34,6 +36,9 @@ https://github.com/sMohammad14/WABACL-wallix-bastion-access-control-list-viewer
 ##### ✅ قابلیت دانلود جدول خروجی با وضعیت فعلی جدول به صورت زنده، در دو فرمت JSON و CSV اضافه شد. توضیح اینکه فایل های قابل دانلود دقیقا وضعیت فعلی که کاربر هم اکنون در حال مشاهده هست رو شامل میشه، یعنی sorting اعمال شده، ستون های در حال مشاهده یا مخفی شده در فایل های دانلودی، قابل دسترسی هست. به طور دقیق، کاربر هر آنچه اکنون در جدول مشاهده میکند، همان اطلاعات در فایل های ذکر شده به همان شکل در دسترس خواهد بود. 
 
 ---
+
+### Version for Wallix Bastion 9.x added!
+
 #### 💡 Update: Due to Wallix API updates and changes to API endpoints, this project is released in two versions. One for Wallix Bastion 9.x and the other for Wallix Bastion 12.x. A version for version 10 will be announced soon! Or you can test with both HTML files here!
 
 Thanks to a friend who pointed this out and fixed the code! 🌹
